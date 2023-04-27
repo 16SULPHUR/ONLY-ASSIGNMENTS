@@ -1,0 +1,35 @@
+/* ------------Table of contents------------ */
+table {
+    border-collapse: collapse;
+    width: 99%;
+    margin-bottom: 1rem;
+    position: absolute;
+    top: 90px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* ------------Dropdown------------ */
+details{
+    cursor: pointer;
+    user-select: none;
+    padding: 7px 0px;
+}
+
+#noteslist{
+    margin-left: 30px;
+}
+
+details div{
+    padding: 2px 0px;
+    color: rgb(0, 102, 255);
+}
