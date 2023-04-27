@@ -1,6 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
 /* ------------Navigation Bar------------ */
 header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -24,7 +27,7 @@ nav {
 }
 
 .logo img {
-    height: 150px;
+    height: 50px;
 }
 
 .menu ul {
@@ -141,4 +144,20 @@ nav {
 #dropdown-list div a {
     text-decoration: none;
     color: white;
+}
+    /* ------------scroll-top------------ */
+#scroll-top{
+    border: 1px solid black;
+    width: 30px ;
+    height: 30px;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+    color: blue;
+    cursor: pointer;
+}
+
+span img{
+    height: 20px;
 }

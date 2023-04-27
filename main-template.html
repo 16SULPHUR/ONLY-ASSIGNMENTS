@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Only Assignments</title>
 
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="main-template.css">
 
     <!-- Font Awsome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -16,13 +16,13 @@
     <header>
         <nav>
 			<div class="logo">
-				<a><img src="logo.png" alt=""></a>
+				<a href="index.html"><img src="logo.png" alt=""></a>
 			</div>
 			<div class="menu">
 				<ul>
 					<li><a>Home</a></li>
 					<li><a>About</a></li>
-					<li id="drp" onclick="showdropdown()"><a>Semister</a> <i  style="padding: 5px 0px;" class="fa fa-chevron-down fa-xs" style="color: #ffffff;"></i> </li>
+					<li id="drp" onclick="showdropdown()"><a>Semester</a> <i  style="padding: 5px 0px;" class="fa fa-chevron-down" style="color: #ffffff;"></i> </li>
                     
 					<li><a>Services</a></li>
 					<li><a>Contact</a></li>
@@ -35,16 +35,21 @@
 			</div>
 		</nav>
         <div id="dropdown-list" onmouseleave="disnone()">
-                        <div class="dropdown-list-item"><a href="semister1.html">Semister 1</a></div>
-                        <div class="dropdown-list-item"><a href="">Semister 2</a></div>
-                        <div class="dropdown-list-item"><a href="">Semister 3</a></div>
-                        <div class="dropdown-list-item"><a href="">Semister 4</a></div>
-                        <div class="dropdown-list-item"><a href="">Semister 5</a></div>
-                        <div class="dropdown-list-item"><a href="">Semister 6</a></div>
-                        <div class="dropdown-list-item"><a href="">Semister 7</a></div>
-                        <div class="dropdown-list-item"><a href="">Semister 8</a></div>
+                        <div class="dropdown-list-item"><a href="semester1.html">Semester 1</a></div>
+                        <div class="dropdown-list-item"><a href="">Semester 2</a></div>
+                        <div class="dropdown-list-item"><a href="">Semester 3</a></div>
+                        <div class="dropdown-list-item"><a href="">Semester 4</a></div>
+                        <div class="dropdown-list-item"><a href="">Semester 5</a></div>
+                        <div class="dropdown-list-item"><a href="">Semester 6</a></div>
+                        <div class="dropdown-list-item"><a href="">Semester 7</a></div>
+                        <div class="dropdown-list-item"><a href="">Semester 8</a></div>
                     </div>
     </header>
+
+    <span id="scroll-top" onclick="topFunction()">
+       <img src="up.png" alt="">
+    </span>
+
 <script src="main-template.js"></script>
 </body>
 </html>
