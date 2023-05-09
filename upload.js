@@ -14,7 +14,7 @@ function getsem() {
 
     if (semSelect.value == "semester1") {
         for (let i = 0; i < 8; i++) {
-            if (i == 1) {
+            if (i == 0) {
                 continue
             }
           document.getElementById(dropdownsForSems[i]).style.display = "none";
@@ -24,7 +24,7 @@ function getsem() {
     }
     if (semSelect.value == "semester2") {
         for (let i = 0; i < 8; i++) {
-          if (i == 2) {
+          if (i == 1) {
             continue;
           }
           document.getElementById(dropdownsForSems[i]).style.display = "none";
@@ -34,7 +34,7 @@ function getsem() {
     }
     if (semSelect.value == "semester3") {
         for (let i = 0; i < 8; i++) {
-          if (i == 3) {
+          if (i == 2) {
             continue;
           }
           document.getElementById(dropdownsForSems[i]).style.display = "none";
@@ -44,7 +44,7 @@ function getsem() {
     }
     if (semSelect.value == "semester4") {
         for (let i = 0; i < 8; i++) {
-          if (i == 4) {
+          if (i == 3) {
             continue;
           }
           document.getElementById(dropdownsForSems[i]).style.display = "none";
@@ -54,7 +54,7 @@ function getsem() {
     }
     if (semSelect.value == "semester5") {
         for (let i = 0; i < 8; i++) {
-          if (i == 5) {
+          if (i == 4) {
             continue;
           }
           document.getElementById(dropdownsForSems[i]).style.display = "none";
@@ -64,7 +64,7 @@ function getsem() {
     }
     if (semSelect.value == "semester6") {
         for (let i = 0; i < 8; i++) {
-          if (i == 6) {
+          if (i == 5) {
             continue;
           }
           document.getElementById(dropdownsForSems[i]).style.display = "none";
@@ -74,7 +74,7 @@ function getsem() {
     }
     if (semSelect.value == "semester7") {
         for (let i = 0; i < 8; i++) {
-          if (i == 7) {
+          if (i == 6) {
             continue;
           }
           document.getElementById(dropdownsForSems[i]).style.display = "none";
@@ -84,7 +84,7 @@ function getsem() {
     }
     if (semSelect.value == "semester8") {
         for (let i = 0; i < 8; i++) {
-          if (i == 8) {
+          if (i == 7) {
             continue;
           }
           document.getElementById(dropdownsForSems[i]).style.display = "none";

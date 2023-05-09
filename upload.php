@@ -31,6 +31,10 @@
   <body>
     <div id="includeHtml"></div>
 
+
+
+    
+
     <form>
       <div class="dropdown-flex">
         <select onchange="getsem()" class="dropdowns" name="semester" id="semSelect">
@@ -81,13 +85,13 @@
           <div id="dropdowns-for-sem2" class="relative-dropdowns dropdown-flex">
             <select class="dropdowns" name="subject" id="subject">
           <option value="Basic Electrical and Electronics Engineering">
-            Basic Electrical and Electronics Engineering
+            Digital logic and computer Design (EC3002)
           </option>
-          <option value="Prigraming with C">Prigraming with C</option>
-          <option value="Physics">Physics</option>
-          <option value="Linear Algebra">Linear Algebra</option>
+          <option value="Prigraming with C">Programming with Python (IT3008)</option>
+          <option value="Physics">Web Designing (IT3007)</option>
+          <option value="Linear Algebra">Engineering Drafting and Computer Graphics (ME3004)</option>
           <option value="Professional Communication">
-            Professional Communication
+            Environmental Studies (CV3003)
           </option>
         </select>
 
@@ -111,13 +115,13 @@
           <div id="dropdowns-for-sem3" class="relative-dropdowns dropdown-flex">
             <select class="dropdowns" name="subject" id="subject">
           <option value="Basic Electrical and Electronics Engineering">
-            Basic Electrical and Electronics Engineering
+            Database Management System (CE4012)
           </option>
-          <option value="Prigraming with C">Prigraming with C</option>
-          <option value="Physics">Physics</option>
-          <option value="Linear Algebra">Linear Algebra</option>
+          <option value="Prigraming with C">Software Engineering (CE4013)</option>
+          <option value="Physics">Programming with JAVA (IT4016)</option>
+          <option value="Linear Algebra">Web Development (IT4017)</option>
           <option value="Professional Communication">
-            Professional Communication
+            Mobile Application Development (IT4018)
           </option>
         </select>
 
@@ -290,7 +294,29 @@
     </form>
 
 
+      <!-- PHP Script -->
+    <?php
+    if (isset($_POST["submit"])){
+      // connecting to server
+    $servername = "localhost";
+$username = "root";
+$password = "";
+$database = "only-assignments";
 
+$conn = mysqli_connect($servername , $username , $password , $database);
+
+// pushing query
+$sem = $_POST["semSelect"];
+$sub = $_POST["subject"];
+$material = $_POST["material"];
+$unit = $_POST["unit"];
+$url = $_POST["url"];
+$sql_str = "INSERT INTO `$sem` (`Sr. No.`, `Subject`, `Material`, `Unit`, `URL`) VALUES (NULL, '$sub', '$material', '$unit', '$url')";
+
+$newdb = mysqli_query($conn , $sql_str);
+
+    }
+    ?>
     <script src="upload.js"></script>
   </body>
 </html>
