@@ -1,0 +1,29 @@
+body{
+    margin-top: 80px;
+    padding: 10px 400px;
+}
+
+div.dropdown-flex{
+    margin: 20px 0px;
+}
+
+div.relative-dropdowns{
+    display: none;
+}
+
+select{
+    width: 100%;
+}
+
+.dropdowns{
+    margin: 20px 0px;
+}
+
+
+.submit{
+    margin-top: 20px;
+}
+
+#url{
+    border: 1px solid black;
+}
