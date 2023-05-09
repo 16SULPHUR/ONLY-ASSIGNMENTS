@@ -35,9 +35,9 @@
 
     
 
-    <form>
+    <form action="upload.php" method="post">
       <div class="dropdown-flex">
-        <select onchange="getsem()" class="dropdowns" name="semester" id="semSelect">
+        <select onchange="getsem()" class="dropdowns" name="semSelect" id="semSelect">
           <option value="semester1">Semester 1</option>
           <option value="semester2">Semester 2</option>
           <option value="semester3">Semester 3</option>
@@ -53,270 +53,71 @@
         <div>
 
           <div id="dropdowns-for-sem1" class="relative-dropdowns dropdown-flex">
-            <select class="dropdowns" name="subject" id="subject">
-          <option value="Basic Electrical and Electronics Engineering">
-            Basic Electrical and Electronics Engineering
-          </option>
-          <option value="Prigraming with C">Prigraming with C</option>
-          <option value="Physics">Physics</option>
-          <option value="Linear Algebra">Linear Algebra</option>
-          <option value="Professional Communication">
-            Professional Communication
-          </option>
-        </select>
-
-        <select class="dropdowns" name="material" id="material">
-          <option value="Notes">Notes</option>
-          <option value="Practicals">Practicals</option>
-          <option value="Assignments">Assignment</option>
-        </select>
-
-        <select class="dropdowns" name="semester" id="semester">
-          <option value="Unit1">Unit 1</option>
-          <option value="Unit2">Unit 2</option>
-          <option value="Unit3">Unit 3</option>
-          <option value="Unit4">Unit 4</option>
-          <option value="Unit5">Unit 5</option>
-          <option value="Unit6">Unit 6</option>
-        </select>
+            
           </div>
           
           
           <div id="dropdowns-for-sem2" class="relative-dropdowns dropdown-flex">
-            <select class="dropdowns" name="subject" id="subject">
-          <option value="Basic Electrical and Electronics Engineering">
-            Digital logic and computer Design (EC3002)
-          </option>
-          <option value="Prigraming with C">Programming with Python (IT3008)</option>
-          <option value="Physics">Web Designing (IT3007)</option>
-          <option value="Linear Algebra">Engineering Drafting and Computer Graphics (ME3004)</option>
-          <option value="Professional Communication">
-            Environmental Studies (CV3003)
-          </option>
-        </select>
-
-        <select class="dropdowns" name="material" id="material">
-          <option value="Notes">Notes</option>
-          <option value="Practicals">Practicals</option>
-          <option value="Assignments">Assignments</option>
-        </select>
-
-        <select class="dropdowns" name="semester" id="semester">
-          <option value="Unit1">Unit 1</option>
-          <option value="Unit2">Unit 2</option>
-          <option value="Unit3">Unit 3</option>
-          <option value="Unit4">Unit 4</option>
-          <option value="Unit5">Unit 5</option>
-          <option value="Unit6">Unit 6</option>
-        </select>
+            
           </div>
 
 
           <div id="dropdowns-for-sem3" class="relative-dropdowns dropdown-flex">
-            <select class="dropdowns" name="subject" id="subject">
-          <option value="Basic Electrical and Electronics Engineering">
-            Database Management System (CE4012)
-          </option>
-          <option value="Prigraming with C">Software Engineering (CE4013)</option>
-          <option value="Physics">Programming with JAVA (IT4016)</option>
-          <option value="Linear Algebra">Web Development (IT4017)</option>
-          <option value="Professional Communication">
-            Mobile Application Development (IT4018)
-          </option>
-        </select>
-
-        <select class="dropdowns" name="material" id="material">
-          <option value="Notes">Notes</option>
-          <option value="Practicals">Practicals</option>
-          <option value="Assignments">Assignment</option>
-        </select>
-
-        <select class="dropdowns" name="semester" id="semester">
-          <option value="Unit1">Unit 1</option>
-          <option value="Unit2">Unit 2</option>
-          <option value="Unit3">Unit 3</option>
-          <option value="Unit4">Unit 4</option>
-          <option value="Unit5">Unit 5</option>
-          <option value="Unit6">Unit 6</option>
-        </select>
+            
           </div>
 
           <div id="dropdowns-for-sem4" class="relative-dropdowns dropdown-flex">
-            <select class="dropdowns" name="subject" id="subject">
-          <option value="Basic Electrical and Electronics Engineering">
-            Basic Electrical and Electronics Engineering
-          </option>
-          <option value="Prigraming with C">Prigraming with C</option>
-          <option value="Physics">Physics</option>
-          <option value="Linear Algebra">Linear Algebra</option>
-          <option value="Professional Communication">
-            Professional Communication
-          </option>
-        </select>
-
-        <select class="dropdowns" name="material" id="material">
-          <option value="Notes">Notes</option>
-          <option value="Practicals">Practicals</option>
-          <option value="Assignments">Assignment</option>
-        </select>
-
-        <select class="dropdowns" name="semester" id="semester">
-          <option value="Unit1">Unit 1</option>
-          <option value="Unit2">Unit 2</option>
-          <option value="Unit3">Unit 3</option>
-          <option value="Unit4">Unit 4</option>
-          <option value="Unit5">Unit 5</option>
-          <option value="Unit6">Unit 6</option>
-        </select>
+            
           </div>
 
           <div id="dropdowns-for-sem5" class="relative-dropdowns dropdown-flex">
-            <select class="dropdowns" name="subject" id="subject">
-          <option value="Basic Electrical and Electronics Engineering">
-            Basic Electrical and Electronics Engineering
-          </option>
-          <option value="Prigraming with C">Prigraming with C</option>
-          <option value="Physics">Physics</option>
-          <option value="Linear Algebra">Linear Algebra</option>
-          <option value="Professional Communication">
-            Professional Communication
-          </option>
-        </select>
-
-        <select class="dropdowns" name="material" id="material">
-          <option value="Notes">Notes</option>
-          <option value="Practicals">Practicals</option>
-          <option value="Assignments">Assignment</option>
-        </select>
-
-        <select class="dropdowns" name="semester" id="semester">
-          <option value="Unit1">Unit 1</option>
-          <option value="Unit2">Unit 2</option>
-          <option value="Unit3">Unit 3</option>
-          <option value="Unit4">Unit 4</option>
-          <option value="Unit5">Unit 5</option>
-          <option value="Unit6">Unit 6</option>
-        </select>
+            
           </div>
 
           <div id="dropdowns-for-sem6" class="relative-dropdowns dropdown-flex">
-            <select class="dropdowns" name="subject" id="subject">
-          <option value="Basic Electrical and Electronics Engineering">
-            Basic Electrical and Electronics Engineering
-          </option>
-          <option value="Prigraming with C">Prigraming with C</option>
-          <option value="Physics">Physics</option>
-          <option value="Linear Algebra">Linear Algebra</option>
-          <option value="Professional Communication">
-            Professional Communication
-          </option>
-        </select>
-
-        <select class="dropdowns" name="material" id="material">
-          <option value="Notes">Notes</option>
-          <option value="Practicals">Practicals</option>
-          <option value="Assignments">Assignment</option>
-        </select>
-
-        <select class="dropdowns" name="semester" id="semester">
-          <option value="Unit1">Unit 1</option>
-          <option value="Unit2">Unit 2</option>
-          <option value="Unit3">Unit 3</option>
-          <option value="Unit4">Unit 4</option>
-          <option value="Unit5">Unit 5</option>
-          <option value="Unit6">Unit 6</option>
-        </select>
+            
           </div>
 
           <div id="dropdowns-for-sem7" class="relative-dropdowns dropdown-flex">
-            <select class="dropdowns" name="subject" id="subject">
-          <option value="Basic Electrical and Electronics Engineering">
-            Basic Electrical and Electronics Engineering
-          </option>
-          <option value="Prigraming with C">Prigraming with C</option>
-          <option value="Physics">Physics</option>
-          <option value="Linear Algebra">Linear Algebra</option>
-          <option value="Professional Communication">
-            Professional Communication
-          </option>
-        </select>
-
-        <select class="dropdowns" name="material" id="material">
-          <option value="Notes">Notes</option>
-          <option value="Practicals">Practicals</option>
-          <option value="Assignments">Assignment</option>
-        </select>
-
-        <select class="dropdowns" name="semester" id="semester">
-          <option value="Unit1">Unit 1</option>
-          <option value="Unit2">Unit 2</option>
-          <option value="Unit3">Unit 3</option>
-          <option value="Unit4">Unit 4</option>
-          <option value="Unit5">Unit 5</option>
-          <option value="Unit6">Unit 6</option>
-        </select>
+           
           </div>
 
           <div id="dropdowns-for-sem8" class="relative-dropdowns dropdown-flex">
-            <select class="dropdowns" name="subject" id="subject">
-          <option value="Basic Electrical and Electronics Engineering">
-            Basic Electrical and Electronics Engineering
-          </option>
-          <option value="Prigraming with C">Prigraming with C</option>
-          <option value="Physics">Physics</option>
-          <option value="Linear Algebra">Linear Algebra</option>
-          <option value="Professional Communication">
-            Professional Communication
-          </option>
-        </select>
-
-        <select class="dropdowns" name="material" id="material">
-          <option value="Notes">Notes</option>
-          <option value="Practicals">Practicals</option>
-          <option value="Assignments">Assignment</option>
-        </select>
-
-        <select class="dropdowns" name="semester" id="semester">
-          <option value="Unit1">Unit 1</option>
-          <option value="Unit2">Unit 2</option>
-          <option value="Unit3">Unit 3</option>
-          <option value="Unit4">Unit 4</option>
-          <option value="Unit5">Unit 5</option>
-          <option value="Unit6">Unit 6</option>
-        </select>
+            
           </div>
         </div>
       </div>
 
       <label for="url">URL:</label>
-      <input type="text" class="form-control" id="url" />
-      <button type="submit" class="btn btn-primary submit">Submit</button>
+      <input name="url" type="text" class="form-control" id="url" />
+      <button name = "submit" type="submit" class="btn btn-primary submit">Submit</button>
     </form>
-
-
+    
+    
+    <script src="upload.js"></script>
       <!-- PHP Script -->
     <?php
-    if (isset($_POST["submit"])){
+    if (isset($_POST['submit'])){
       // connecting to server
-    $servername = "localhost";
-$username = "root";
-$password = "";
-$database = "only-assignments";
+      $servername = "localhost";
+      $username = "root";
+      $password = "";
+      $database = "only-assignments";
+      
+      $sem = $_POST['semSelect'];
+      $sub = $_POST['subject'];
+      $material = $_POST['material'];
+      $unit = $_POST['unit'];
+      $url = $_POST['url'];
 
-$conn = mysqli_connect($servername , $username , $password , $database);
+      $conn = mysqli_connect($servername , $username , $password , $database);
 
 // pushing query
-$sem = $_POST["semSelect"];
-$sub = $_POST["subject"];
-$material = $_POST["material"];
-$unit = $_POST["unit"];
-$url = $_POST["url"];
 $sql_str = "INSERT INTO `$sem` (`Sr. No.`, `Subject`, `Material`, `Unit`, `URL`) VALUES (NULL, '$sub', '$material', '$unit', '$url')";
 
 $newdb = mysqli_query($conn , $sql_str);
 
     }
     ?>
-    <script src="upload.js"></script>
   </body>
 </html>
